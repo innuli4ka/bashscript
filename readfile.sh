@@ -1,5 +1,10 @@
 #!/bin/bash
 function firstfunc() {
+for line in $(cat $path); do
+	echo "$line"
+done
+}
+function secondfunc(){
 
 }
 while true; do
