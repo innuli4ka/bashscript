@@ -13,7 +13,7 @@ if [[ "$1" != "" ]]; then
 	if grep -q "$term" $path;then
 		awk -v termToSearch="$term" '
 		{
-		for ( i = 1; 1 <= NF; i++) {
+		for ( i = 1; i <= NF; i++) {
 			count++
 			if ($i == termToSearch) {
 				print "true, word num:", count
@@ -39,5 +39,5 @@ firstfunc
 echo "enter term to search"
 read term
 secondfunc $term
-echo "no more functions"
+
 	
