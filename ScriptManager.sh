@@ -1,9 +1,10 @@
  #!/bin/bash
 
 while true; do
-    echo "============================="
-    echo "        SCRIPT MANAGER"
-    echo "============================="
+    echo "=================================================="
+    echo "                  SCRIPT MANAGER                  "
+    echo " Made by Arkadiy, Ofir, Sagi, Ilay, Sasha and Inna"
+    echo "=================================================="
     echo "1. Run Utility Script"
     echo "2. Delete by Extension"
     echo "3. Read File and Search"
